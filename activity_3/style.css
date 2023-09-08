@@ -1,0 +1,17 @@
+header{
+    background-color: #000000;
+    color: #ffffff;
+    padding: 10px 0;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+nav li{
+    margin: 0 20px;
+}
+nav a{
+    text-decoration: none;
+    color: #ff002b;
+}
