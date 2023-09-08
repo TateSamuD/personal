@@ -1,17 +1,52 @@
-header{
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+* {
+    font-family: 'Poppins';
+}
+
+header {
     background-color: #000000;
-    color: #ffffff;
+    /* color: #ffffff; */
     padding: 10px 0;
 }
-nav ul{
+
+body {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.555), rgba(0, 0, 0, 0));
+}
+
+nav ul {
     list-style: none;
     display: flex;
     justify-content: center;
 }
-nav li{
+
+nav li {
     margin: 0 20px;
 }
-nav a{
+
+nav a {
     text-decoration: none;
     color: #ff002b;
+}
+
+#propic {
+    max-width: 25%;
+    box-shadow: 0 4px 8px 0 #0000003b, 0 6px 20px 0 #00000030;
+}
+
+#contact {}
+
+#contact .container {
+    background-color: #838383;
+}
+
+#contact .container p a {
+    color: #ffffff;
+    justify-content: flex;
+    text-decoration: none;
+    padding-left: 3%;
+}
+
+footer {
+    background-color: #838383;
 }
